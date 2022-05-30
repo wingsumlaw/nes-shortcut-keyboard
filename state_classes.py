@@ -1,0 +1,3 @@
+class States():
+    RUNNING_SHORTCUTS = 0
+    CHOOSING_PROGRAM = 1
