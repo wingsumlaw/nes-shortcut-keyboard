@@ -23,9 +23,8 @@ def press_keys(key_event, current_program):
     # If event is key press, then press all keys
     if key_event.pressed:
         key_sequence = list(programs.dicts[current_program].items())[key_event.key_number]
-
         execute_shortcut(key_sequence)
-
+        
 
 def execute_shortcut(key_sequence):
     '''

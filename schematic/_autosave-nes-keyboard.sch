@@ -1,0 +1,230 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Shortcut Keyboard"
+Date ""
+Rev ""
+Comp "Prepared by Wing-Sum Law"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ShortcutKeyboardSchematic:Feather_RP2040 U4
+U 1 1 62836DEE
+P 4250 1000
+F 0 "U4" H 4250 1015 50  0000 C CNN
+F 1 "Feather_RP2040" H 4250 924 50  0000 C CNN
+F 2 "" H 4250 1000 50  0001 C CNN
+F 3 "" H 4250 1000 50  0001 C CNN
+	1    4250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ShortcutKeyboardSchematic:128x32_I2C_OLED U5
+U 1 1 6288FA03
+P 5350 5100
+F 0 "U5" H 5408 5115 50  0000 C CNN
+F 1 "128x32_I2C_OLED" H 5408 5024 50  0000 C CNN
+F 2 "" H 5350 5150 50  0001 C CNN
+F 3 "" H 5350 5150 50  0001 C CNN
+	1    5350 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5600 4350 3050
+Wire Wire Line
+	4350 3050 4150 3050
+Wire Wire Line
+	4150 5800 5100 5800
+Wire Wire Line
+	4350 5600 5100 5600
+Wire Wire Line
+	4150 3050 4150 5800
+Text Notes 4450 5750 0    79   ~ 16
+QT Cable
+Wire Wire Line
+	3300 1550 3300 800 
+Wire Wire Line
+	3300 1550 3550 1550
+$Comp
+L ShortcutKeyboardSchematic:Rotary_Encoder U1
+U 1 1 628971FB
+P 1100 1000
+F 0 "U1" H 1100 1000 50  0000 C CNN
+F 1 "Rotary_Encoder" H 1100 900 50  0000 C CNN
+F 2 "" H 1100 1000 50  0001 C CNN
+F 3 "" H 1100 1000 50  0001 C CNN
+	1    1100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ShortcutKeyboardSchematic:NeoKey_2x2 U6
+U 1 1 628458F1
+P 6650 3900
+F 0 "U6" H 6600 3950 50  0000 L CNN
+F 1 "NeoKey_2x2" H 6400 3850 50  0000 L CNN
+F 2 "" H 6650 3950 50  0001 C CNN
+F 3 "" H 6650 3950 50  0001 C CNN
+	1    6650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ShortcutKeyboardSchematic:NeoKey_2x2 U7
+U 1 1 6283E029
+P 8150 3900
+F 0 "U7" H 8100 3950 50  0000 L CNN
+F 1 "NeoKey_2x2" H 7900 3850 50  0000 L CNN
+F 2 "" H 8150 3950 50  0001 C CNN
+F 3 "" H 8150 3950 50  0001 C CNN
+	1    8150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ShortcutKeyboardSchematic:NeoKey_1x2_Col U8
+U 1 1 62915B73
+P 9550 3900
+F 0 "U8" V 10350 3800 50  0000 C CNN
+F 1 "NeoKey_1x2_Col" V 10450 3800 50  0000 C CNN
+F 2 "" H 9550 3900 50  0001 C CNN
+F 3 "" H 9550 3900 50  0001 C CNN
+	1    9550 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 3600 7500 3600
+Wire Wire Line
+	7300 3700 7500 3700
+Wire Wire Line
+	7300 3800 7500 3800
+Wire Wire Line
+	7300 4000 7500 4000
+Wire Wire Line
+	7300 4100 7500 4100
+Wire Wire Line
+	7300 4200 7500 4200
+Wire Wire Line
+	8800 3600 9000 3600
+Wire Wire Line
+	8800 3700 9000 3700
+Wire Wire Line
+	8800 3800 9000 3800
+Wire Wire Line
+	8800 4000 9000 4000
+Wire Wire Line
+	8800 4100 9000 4100
+Wire Wire Line
+	8800 4200 9000 4200
+Wire Wire Line
+	6000 3800 5650 3800
+Wire Wire Line
+	5650 3800 5650 800 
+Wire Wire Line
+	3300 800  5650 800 
+Wire Wire Line
+	3400 900  3400 1450
+Wire Wire Line
+	6350 900  6350 3250
+Wire Wire Line
+	6550 2700 6550 3250
+Wire Wire Line
+	4950 2700 6550 2700
+Wire Wire Line
+	6950 2600 6950 3250
+Wire Wire Line
+	4950 2600 6950 2600
+Wire Wire Line
+	8050 2500 8050 3250
+Wire Wire Line
+	4950 2500 8050 2500
+Wire Wire Line
+	8450 2400 8450 3250
+Wire Wire Line
+	4950 2400 8450 2400
+Wire Wire Line
+	9550 2300 9550 3250
+Wire Wire Line
+	4950 2300 9550 2300
+Wire Wire Line
+	1650 1350 1800 1350
+Wire Wire Line
+	1800 1350 1800 800 
+Connection ~ 3300 800 
+Wire Wire Line
+	1250 1650 1250 1700
+Wire Wire Line
+	1150 1650 1150 1800
+Connection ~ 1800 1350
+Wire Wire Line
+	3400 900  6350 900 
+Wire Wire Line
+	3400 1450 3550 1450
+Wire Wire Line
+	6000 4000 5100 4000
+Wire Wire Line
+	5100 4000 5100 2200
+Wire Wire Line
+	5100 2200 4950 2200
+Wire Wire Line
+	6000 3600 5200 3600
+Wire Wire Line
+	5200 3600 5200 2100
+Wire Wire Line
+	5200 2100 4950 2100
+Wire Wire Line
+	1800 1350 1800 1800
+Wire Wire Line
+	1150 1800 1800 1800
+Wire Wire Line
+	1650 1250 3200 1250
+Wire Wire Line
+	3200 1250 3200 1900
+Wire Wire Line
+	1650 1450 3100 1450
+Wire Wire Line
+	3100 1450 3100 2000
+Wire Wire Line
+	3550 3700 3550 2950
+Wire Wire Line
+	6000 3700 3550 3700
+Wire Wire Line
+	3550 1900 3200 1900
+Wire Wire Line
+	3550 2000 3100 2000
+$Comp
+L ME218_BaseLib:SW-SPDT SW1
+U 1 1 62C03E2B
+P 2900 2500
+F 0 "SW1" H 2900 2785 50  0000 C CNN
+F 1 "SW-SPDT" H 2900 2694 50  0000 C CNN
+F 2 "" H 2900 2500 50  0001 C CNN
+F 3 "" H 2900 2500 50  0001 C CNN
+	1    2900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2500 2600 2500
+Wire Wire Line
+	3000 1700 3000 1800
+Wire Wire Line
+	3000 1800 3550 1800
+Wire Wire Line
+	3000 1700 1250 1700
+Wire Wire Line
+	3100 2400 3450 2400
+Wire Wire Line
+	3450 2400 3450 1700
+Wire Wire Line
+	3450 1700 3550 1700
+Wire Wire Line
+	1800 800  2600 800 
+Wire Wire Line
+	2600 800  2600 2500
+Connection ~ 2600 800 
+Wire Wire Line
+	2600 800  3300 800 
+$EndSCHEMATC
