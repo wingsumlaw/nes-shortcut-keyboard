@@ -30,3 +30,10 @@ dicts = [
 ```
 
 While this software could potentially manage a great number of programs, keep in mind that the OLED screen in its current state will only show 4 programs.
+
+## Links
+
+See more info on the construction and design of the NES Shortcut Keyboard can be found at...
+
+* [My Website](https://www.wingsumlaw.com)
+* [Hackaday Post](https://hackaday.io/project/186123-nes-shortcut-keyboard)
